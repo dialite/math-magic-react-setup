@@ -44,7 +44,7 @@ alt="logo" width="140"  height="auto" />
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Team Work</summary>
+  <summary>Solo Project</summary>
   <ul>
     <li><a href="https://github.com/dialite/math-magic-react-setup/tree/math-magic-setup">Math Magician</a></li>
   </ul>
