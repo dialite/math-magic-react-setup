@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# To do list
 
-## Available Scripts
+> Math-magic
+This is a Single Page Application (SPA) that allows users to Make simple calculations and Read a random math-related quote.
 
-In the project directory, you can run:
+# WORK FLOW SCREEN
+## SCREEN SHOT
+![screenshot](./)
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- REACT
+- CSS 3
+- JAVASCRIPT ES6
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo (if available)
 
-### `npm test`
+[Live Demo Link]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+**Instructions on how to view and clone my project locally.**
+ To Access my project locally please follow the following instructions;
+1. Create a folder on your computer where you will clone the project
+2. Enter this url: https://github.com/dialite/math-magic-react-setup.git in your web browser.
+3. Once opened, move your cursor to the top left of the project page to select 'code' a green code button will be visible on the righthand corner showing download options.
+5. Select download Zip option from drop down menu to your desired folder on your computer.
+6. Once the download is complete you will be able to access my project locally.
+7. Also, you can navigate to your folder using a console.
+8. Then run git clone https://github.com/dialite/math-magic-react-setup.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### VScode, GIT bash
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### clone the repository to your local machine
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy and running follow these simple example steps.
 
-### `npm run eject`
+- Set up a new repository and prepare it for development using best practices (e.g. linters).
+- Create a new branch according to the GitHub flow rules.
+- Add a .gitignore file.
+- Set up a linter for HTML and CSS and make sure that any files that are not relevant are ignored by git.
+- Enable GH web Page on portfolio repository to deploy it on the web
+- Add descriptive README file to your project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Git (as version control)
+- sudo apt install nodejs (To install nodejs)
+- npm install --save-dev jest (To get started with Jest)
+- npm install --save-dev jest-environment-jsdom(To get started with the JSDOM test environment)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Run tests
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Lighthouse
+- Stylelint
+- ESLint
+- clear all Item/task (with Jest)
+- edit Item/task (with Jest)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Authors
 
-### `npm run build` fails to minify
+👤 Raymond Olisa
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: [@dialite](https://github.com/dialite)
+- Twitter: [@raymondolisa01](https://twitter.com/raymondolisa01)
+- LinkedIn: [raymond-olisa](https://www.linkedin.com/in/raymond-olisa-775929243/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
