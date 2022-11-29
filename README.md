@@ -130,19 +130,16 @@ Clone this repository to your desired folder:
 
 
 - cd my-folder
-- git clone https://webpack.js.org/configuration/dev-server.git
+- git clone https://github.com/dialite/math-magic-react-setup.git
 
 
 ### Install
 
 Install this project with:
 
-- You'll need to install Webpack on your root directory by using the following command on your terminal:
+- You'll need to install React on your root directory by using the following command on your terminal:
 
-    `npm install webpack webpack-cli --save-dev`
-- Now you can use the npm run build command to create your new files on the dist folder by using the following command:
-
-    `npm run build`
+    "npx create-react-app 'app-name'"
 
 ### Usage
 
