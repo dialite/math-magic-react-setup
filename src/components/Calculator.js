@@ -1,64 +1,42 @@
-import React, { Component } from 'react';
-import './Calculator.css';
+import React from 'react';
+import './calculator.css';
 
-export default class Calculator extends Component {
+class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      operator1: '',
-      result: '0',
-    };
-    this.btnOnClickOperator = this.btnOnClickOperator.bind(this);
-    this.btnOnClick = this.btnOnClick.bind(this);
-    this.btnOnClickResult = this.btnOnClickResult.bind(this);
-  }
 
-  btnOnClickOperator({ target }) {
-    this.setState((prevState) => ({
-      operator1: prevState.operator1.concat(target.textContent),
-      result: prevState.operator1.concat(target.textContent),
-    }));
-  }
-
-  btnOnClick({ target }) {
-    this.setState(() => ({
-      operator1: target.textContent,
-    }));
-  }
-
-  btnOnClickResult() {
-    this.setState((prevState) => ({
-      result: prevState.operator1 * 2,
-    }));
+    this.state = { result: 0 };
   }
 
   render() {
     const { result } = this.state;
     return (
-      <div className="container">
-        <div className="result">
-          {result}
+      <div>
+        <p className="result">{result}</p>
+        <div className="calculator-app">
+          <button type="button" className="greyButtons">AC</button>
+          <button type="button" className="greyButtons">+/-</button>
+          <button type="button" className="greyButtons">% </button>
+          <button type="button" className="orangeButtons">÷</button>
+          <button type="button" className="greyButtons">7</button>
+          <button type="button" className="greyButtons">8</button>
+          <button type="button" className="greyButtons">9</button>
+          <button type="button" className="orangeButtons">x</button>
+          <button type="button" className="greyButtons">4</button>
+          <button type="button" className="greyButtons">5</button>
+          <button type="button" className="greyButtons">6</button>
+          <button type="button" className="orangeButtons">-</button>
+          <button type="button" className="greyButtons">1</button>
+          <button type="button" className="greyButtons">2</button>
+          <button type="button" className="greyButtons">3</button>
+          <button type="button" className="orangeButtons">+</button>
+          <button type="button" className="greyButton-0">0</button>
+          <button type="button" className="greyButtons">.</button>
+          <button type="button" className="orangeButtons">=</button>
         </div>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-zero">0</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-dot">.</button>
-        <button type="button" onClick={this.btnOnClickResult} className="btn-accent btn-equal">=</button>
-        <button type="button" onClick={this.btnOnClick} className="btn-light btn-clear">AC</button>
-        <button type="button" onClick={this.btnOnClick} className="btn-light btn-toogle-sign">+/-</button>
-        <button type="button" onClick={this.btnOnClick} className="btn-light btn-percentage">%</button>
-        <button type="button" onClick={this.btnOnClick} className="btn-accent btn-divider">/</button>
-        <button type="button" onClick={this.btnOnClick} className="btn-accent btn-multiply">*</button>
-        <button type="button" onClick={this.btnOnClick} className="btn-accent btn-substract">-</button>
-        <button type="button" onClick={this.btnOnClick} className="btn-accent btn-plus">+</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-one">1</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-two">2</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-three">3</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-four">4</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-five">5</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-six">6</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-seven">7</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-eight">8</button>
-        <button type="button" onClick={this.btnOnClickOperator} className="btn-light btn-nine">9</button>
       </div>
     );
   }
 }
+
+export default Calculator;
