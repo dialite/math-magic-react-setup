@@ -23,6 +23,5 @@
     "ignorePatterns": [
       "dist/",
       "build/"
-    ],
-    "import/extensions": ["js", "never"]
+    ]
   }
