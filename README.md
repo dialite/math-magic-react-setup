@@ -37,7 +37,7 @@ alt="logo" width="140"  height="auto" />
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> Math-magic project is a Single Page Application (SPA) created with React that allows users to Make simple calculations and Read a random math-related quote. It is simple and easy to use.
+> Math-magic project is a Single Page Application (SPA) created with React that allows users to Make simple calculations and Read a random math-related quote. It is simple and easy to use. Enjoy it!
 > ![calcul](https://user-images.githubusercontent.com/57562869/128854718-9eef3b78-0226-4c17-a049-bcdc487c4d91.png)
 
 ## 🛠 Built With <a name="built-with"></a>
