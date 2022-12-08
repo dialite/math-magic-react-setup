@@ -1,7 +1,8 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import Calculator from './components/Calculator';
+// import Calculator from './components/Calculator';
+import Calculator from "./components/Calculator";
 
 const App = () => (
   <div className="App">
