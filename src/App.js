@@ -1,15 +1,15 @@
 import React from 'react';
-import Calculator from './components/calculator';
+import Calculator from './pages/calculator';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = null;
+    this.state = {};
   }
 
   render() {
     return (
-      <div className="calculatorSection">
+      <div className="App">
         <Calculator />
       </div>
     );
