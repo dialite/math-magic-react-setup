@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import calculate from '../Logic/calculate';
+// eslint-disable-next-line import/extensions
+import calculate from '../Logic/calculate.js';
 import '../modules-css/calculator.css';
 
 const Calculator = () => {
