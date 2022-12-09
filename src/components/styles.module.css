@@ -1,0 +1,13 @@
+.marginLeftAndRight {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.fontSize {
+  font-size: large;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: black;
+}
