@@ -1,4 +1,12 @@
 {
+<<<<<<< HEAD
   "presets": ["@babel/preset-react"],
   "plugins": ["@babel/plugin-syntax-jsx"]
 }
+=======
+  "presets": [
+      "@babel/preset-react"
+  ],
+  "plugins": ["@babel/plugin-syntax-jsx"]
+}
+>>>>>>> f0e81aa0b204bde48db14eaffb5fe7a1eb348b25
