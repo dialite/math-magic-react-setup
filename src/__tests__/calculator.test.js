@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Calculator from '../pages/calculator';
+import Calculator from '../components/Calculator';
 
 describe('Testing', () => {
   test('See if is the number is adding', async () => {

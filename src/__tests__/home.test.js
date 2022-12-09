@@ -1,6 +1,5 @@
 import renderer from 'react-test-renderer';
-// eslint-disable-next-line import/extensions
-import Home from '../pages/home';
+import Home from '../components/Home';
 
 test('render Home', () => {
   const renderHome = renderer.create(<Home />).toJSON();

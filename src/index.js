@@ -1,27 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Calculator from './pages/calculator';
-import NavLink from './components/nav';
-import './modules-css/calculator.css';
-import './modules-css/nav.css';
-// eslint-disable-next-line import/extensions
-import Home from './pages/home';
-// eslint-disable-next-line import/extensions
-import Quote from './pages/quote';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import './App.css';
+import Calculator from './components/Calculator';
+import Header from './components/Header';
+import Home from './components/Home';
+import Quote from './components/Quote';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const calculatorContainer = ReactDOM.createRoot(
+  document.getElementById('calculator-container'),
+);
+
+calculatorContainer.render(
   <React.StrictMode>
     <>
       <BrowserRouter>
-        <div className="header">
-          <NavLink />
-        </div>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/calculator" element={<Calculator />} />
-          <Route path="/quote" element={<Quote />} />
+          <Route path="/Calculator" element={<Calculator />} />
+          <Route path="/Quote" element={<Quote />} />
         </Routes>
       </BrowserRouter>
     </>

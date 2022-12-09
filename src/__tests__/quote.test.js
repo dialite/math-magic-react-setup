@@ -1,6 +1,5 @@
 import renderer from 'react-test-renderer';
-// eslint-disable-next-line import/extensions
-import Quote from '../pages/quote';
+import Quote from '../components/Quote';
 
 test('Render Quote', () => {
   const renderQuote = renderer.create(<Quote />).toJSON();
