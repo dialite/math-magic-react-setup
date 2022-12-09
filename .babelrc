@@ -1,6 +1,18 @@
 {
-    "presets": [
-        ["@babel/preset-react"]
-    ],
-    "plugins": ["@babel/plugin-syntax-jsx"]
-  }
+<<<<<<< HEAD
+  "presets": ["@babel/preset-react"],
+  "plugins": ["@babel/plugin-syntax-jsx"]
+}
+=======
+<<<<<<< HEAD
+  "presets": ["@babel/preset-react"],
+  "plugins": ["@babel/plugin-syntax-jsx"]
+}
+=======
+  "presets": [
+      "@babel/preset-react"
+  ],
+  "plugins": ["@babel/plugin-syntax-jsx"]
+}
+>>>>>>> f0e81aa0b204bde48db14eaffb5fe7a1eb348b25
+>>>>>>> e14e411e4467486ab0edb52013d48174e602cce6
