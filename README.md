@@ -2,9 +2,9 @@
 
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/78832703/203859927-696905b8-edee-4cc6-8642-0759f99b9ffd.png"
+<img src="https://user-images.githubusercontent.com/78832703/203859927-696905b8-edee-4cc6-8642-0759f99b9ffd.png"
 alt="logo" width="140"  height="auto" />
-  <br/>
+<br/>
 
   <h3><b>Microverse README Template</b></h3>
 
@@ -79,7 +79,6 @@ alt="logo" width="140"  height="auto" />
   </ul>
 </details>
 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -102,7 +101,6 @@ alt="logo" width="140"  height="auto" />
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://webpack.js.org/configuration/dev-server/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,7 +108,6 @@ alt="logo" width="140"  height="auto" />
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
@@ -123,15 +120,12 @@ In order to run this project you need:
 - Jestjs
 - Babeljs
 
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-
 - cd my-folder
 - git clone https://github.com/dialite/math-magic-react-setup.git
-
 
 ### Install
 
@@ -139,7 +133,7 @@ Install this project with:
 
 - You'll need to install React on your root directory by using the following command on your terminal:
 
-    "npx create-react-app 'app-name'"
+  "npx create-react-app 'app-name'"
 
 ### Usage
 
@@ -153,7 +147,6 @@ To run tests, run the following command:
 
     `npm test`
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -161,6 +154,7 @@ To run tests, run the following command:
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Raymond Olisa**
+👤 **Zia Bakhteyari**
 
 - GitHub: [dialite](https://github.com/dialite)
 - Twitter: [@raymondolisa01](https://twitter.com/raymondolisa01)
@@ -190,7 +184,6 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
 - Hat tip to anyone whose code was used
 - Microverse
 - My coding partners for their help
@@ -202,6 +195,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
