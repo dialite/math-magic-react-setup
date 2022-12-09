@@ -1,4 +1,3 @@
-/* eslint-disable react/void-dom-elements-no-children */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
