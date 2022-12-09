@@ -38,7 +38,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.19.6",
+    "@babel/core": "^7.20.5",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/plugin-syntax-jsx": "^7.18.6",
     "@babel/preset-env": "^7.19.4",
@@ -48,7 +48,7 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
     "react-test-renderer": "^18.2.0",
     "stylelint": "^13.13.1",
