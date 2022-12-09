@@ -5,9 +5,7 @@ import Calculator from './pages/calculator';
 import NavLink from './components/nav';
 import './modules-css/calculator.css';
 import './modules-css/nav.css';
-// eslint-disable-next-line import/extensions
 import Home from './pages/home';
-// eslint-disable-next-line import/extensions
 import Quote from './pages/quote';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
