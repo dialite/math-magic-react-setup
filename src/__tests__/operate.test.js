@@ -1,8 +1,18 @@
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import operate from '../logic/operate';
+<<<<<<< HEAD
 import Header from '../components/Header';
 import Calculator from '../components/Calculator';
+=======
+<<<<<<< HEAD
+import Header from '../components/Header';
+import Calculator from '../components/Calculator';
+=======
+import Header from '../components/nav';
+import Calculator from '../pages/calculator';
+>>>>>>> f0e81aa0b204bde48db14eaffb5fe7a1eb348b25
+>>>>>>> e14e411e4467486ab0edb52013d48174e602cce6
 
 test('Render NavBar', () => {
   const renderHeader = renderer
