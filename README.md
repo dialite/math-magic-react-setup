@@ -161,6 +161,9 @@ To run tests, run the following command:
 
 👤 **Zia Bakhteyari**
 
+- GitHub: [@zia123456](https://github.com/Zia123456)
+- Twitter: [@zia_bakhteyari](https://twitter.com/Zia_Bakhteyari)
+- LinkedIn: [Zia bakhteyari](https://www.linkedin.com/in/zia-bakhteyari-8b8a861a5/)edIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
